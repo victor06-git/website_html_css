@@ -32,6 +32,8 @@ text-decoration: none;
 
 .header {
   padding: 80px;
+  height: 50px;
+  width: 315px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-align: center;
   background-image:linear-gradient(
