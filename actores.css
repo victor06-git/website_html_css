@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(75, 95, 20);
+
+}
+
+.navbar a {
+float: left;
+display: block;
+color:chocolate;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+
+}
+.navbar a.right{
+  float:right
+}
+
+.navbar a:hover {
+  background-color: #180052;
+  color: rgb(8, 119, 8);
+}
+#actores{
+  background-color: rgb(0, 255, 34);
+}
+\!\!
+.title{
+  border: #180052;
+  background-image: none;
+}
