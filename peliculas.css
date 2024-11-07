@@ -28,8 +28,20 @@ text-decoration: none;
 #peliculas{
   background-color: rgb(0, 255, 34);
 }
-\!\!
+
 .title{
   border: #180052;
   background-image: none;
+}
+
+.logotip {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.logotip img {
+  max-width: 100px;
+  margin-right: 20px;
 }
