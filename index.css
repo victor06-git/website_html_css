@@ -43,3 +43,15 @@ text-decoration: none;
   ), url("jurassic_park_door.jpg");
   color: rgb(0, 0, 0);
 }
+
+.logotip {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.logotip img {
+  max-width: 100px;
+  margin-right: 20px;
+}
