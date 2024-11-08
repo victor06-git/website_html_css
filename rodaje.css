@@ -9,12 +9,12 @@ body {
 }
 
 .navbar a {
-float: left;
-display: block;
-color:chocolate;
-text-align: center;
-padding: 14px 20px;
-text-decoration: none;
+  float: left;
+  display: block;
+  color:chocolate;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
 
 }
 .navbar a.right{
