@@ -72,6 +72,10 @@ body {
   margin-right: 20px;
 }
 
+.color{
+  color: rgb(255,255,255)
+}
+
 footer{
   background-color: rgb(0, 0, 0);
   color: white;
