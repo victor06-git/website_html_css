@@ -129,3 +129,31 @@ td:first-child {
 img {
   margin-top: 10px;
 }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Animación de rotación */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Aplicar animaciones a las imágenes */
+.img-4 {
+  animation: zoom 2s ease-in-out infinite, rotate 4s linear infinite;
+  animation-delay: 0.5s; /* Retraso para que la animación no inicie de inmediato */
+}
