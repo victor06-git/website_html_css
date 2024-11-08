@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(81, 58, 18);
   }
 
 .navbar {
@@ -35,6 +36,7 @@ text-decoration: none;
   padding: 80px;
   height: 50px;
   width: 315px;
+  margin: 0;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-align: center;
   background-image:linear-gradient(
@@ -45,16 +47,27 @@ text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
+.head-principal{
+  display: flex;
+  align-items: center;
+  padding: 10px
+}
+
 .logotip {
+  margin-right: 370px;
   display: flex;
   align-items: left;
   justify-content: left;
-  margin-top: 20px;
+  margin-top: 110px;
 }
 
 .logotip img {
   max-width: 100px;
   margin-right: 20px;
+}
+
+.color{
+  color: rgb(255,255,255);
 }
 
 footer{
