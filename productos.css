@@ -57,6 +57,7 @@ body {
 .title{
   border: #180052;
   background-image: none;
+  color: rgb(255,255,255)
 }
 
 .logotip {
@@ -70,6 +71,10 @@ body {
 .logotip img {
   max-width: 100px;
   margin-right: 20px;
+}
+
+.color{
+  color: rgb(255,255,255)
 }
 
 footer{
