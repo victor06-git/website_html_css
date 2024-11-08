@@ -25,6 +25,27 @@ body {
   float:right
 }
 
+.header {
+  padding: 80px;
+  height: 50px;
+  width: 315px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-align: center;
+  background-image:linear-gradient(
+    to bottom,
+    rgba(255,255,0,0.5),
+    rgba(0,0,255,0.5)
+  ), url("fotos/jurassic_park_door.jpg");
+  color: rgb(0, 0, 0);
+}
+
+.head-principal{
+  display: flex;
+  align-items: center;
+  padding: 10px
+}
+
 .navbar a:hover {
   background-color: #180052;
   color: rgb(8, 119, 8);
