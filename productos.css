@@ -86,3 +86,24 @@ footer{
   bottom: 0;
   width: 100%
 }
+
+#img-1{
+  width: auto;
+  height: auto
+}
+table {
+  border-collapse: collapse;
+  padding-top: 20px;
+}
+td {
+  padding: 10px;
+  padding-left: 10px;
+  text-align: left;
+  border: 1px solid black;
+  color: white
+}
+td:first-child {
+  background-color: brown; /* Color claro para la primera columna */
+  text-align: left;
+  color: black
+}
