@@ -29,16 +29,39 @@ body {
   background-color: rgb(0, 255, 34);
 }
 
+
 .title{
   border: #180052;
   background-image: none;
 }
 
+.header {
+  padding: 80px;
+  height: 50px;
+  width: 315px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-align: center;
+  background-image:linear-gradient(
+    to bottom,
+    rgba(255,255,0,0.5),
+    rgba(0,0,255,0.5)
+  ), url("fotos/jurassic_park_door.jpg");
+  color: rgb(0, 0, 0);
+}
+
+.head-principal{
+  display: flex;
+  align-items: center;
+  padding: 10px
+}
+
 .logotip {
+  margin-right: 370px;
   display: flex;
   align-items: left;
   justify-content: left;
-  margin-top: 20px;
+  margin-top: 110px;
 }
 
 .logotip img {
