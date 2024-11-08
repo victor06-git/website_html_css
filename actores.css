@@ -4,9 +4,12 @@ body {
   }
 
 .navbar {
-  overflow: hidden;
-  background-color: rgb(75, 95, 20);
-
+    overflow: hidden;
+    background-color: rgb(75, 95, 20);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
 }
 
 .navbar a {
@@ -54,9 +57,11 @@ text-decoration: none;
 .title{
   border: #180052;
   background-image: none;
+  color: rgb(255,255,255);
 }
 
 .logotip {
+  margin-right: 370px;
   display: flex;
   align-items: left;
   justify-content: left;
@@ -66,6 +71,10 @@ text-decoration: none;
 .logotip img {
   max-width: 100px;
   margin-right: 20px;
+}
+
+.color{
+  color: rgb(255,255,255);
 }
 
 footer{
