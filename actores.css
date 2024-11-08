@@ -86,3 +86,19 @@ footer{
   bottom: 0;
   width: 100%
 }
+
+td {
+  padding: 10px;
+  padding-left: 10px;
+  text-align: left;
+  border: 1px solid rgb(255,255,255);
+}
+
+td:first-child {
+  background-color: rgb(3, 65, 3); /* Color claro para la primera columna */
+  text-align: left;
+}
+
+img {
+  margin-top: 10px;
+}
